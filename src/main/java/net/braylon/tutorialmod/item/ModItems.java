@@ -1,6 +1,7 @@
 package net.braylon.tutorialmod.item;
 
 import net.braylon.tutorialmod.TutorialMod;
+import net.braylon.tutorialmod.item.custom.FuelItem;
 import net.braylon.tutorialmod.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -30,6 +31,27 @@ public class ModItems {
 // foods------------------------------------------------------------------------------------------.
     public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
             () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
+
+//    fule items-----------------------------------------------------------------------------------------
+
+    public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
+            () -> new FuelItem(new Item.Properties(), 400));
+
+
+
+/*for fule items all you need to do is moditems lang item modle AND ITEM TEXTURE
+* ADD TO THE CREATIVE TAB AND IN HERE give different name and burn time to make different ones
+* make shure to have different textures aswell
+* 200 = 1 items smelted 400 = 2 items smelted so every 200 = 1 more item smellted
+ */
+//    400 = 20 secconds for burn time
+
+
+
+
+
+
+
 //---------------------------------------------------------------------------------------------------------
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

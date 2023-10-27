@@ -75,6 +75,10 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModItems.STRAWBERRY.get());
 
+//                        full item----------------------------------------------
+                        pOutput.accept(ModItems.PINE_CONE.get());
+
+
 //                        weapond/tools-----------------------------------------
 
 
