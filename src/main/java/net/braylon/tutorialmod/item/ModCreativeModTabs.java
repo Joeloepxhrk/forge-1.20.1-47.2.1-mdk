@@ -19,21 +19,27 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.tutorial_tab"))
                     .displayItems((pParameters, pOutput) -> {
 
+//                      normal items----------------------------------------
+
                         pOutput.accept(ModItems.SAPPHIRE.get());
 
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
-
-                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
-
-                        pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
 
                         pOutput.accept(ModItems.ZIRCON.get());
 
                         pOutput.accept(ModItems.RAW_ZIRCON.get());
 
+//                      mod blocks----------------------------------------
+
+                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+
+                        pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+
                         pOutput.accept(ModBlocks.ZIRCON_BLOCK.get());
 
                         pOutput.accept(ModBlocks.RAW_ZIRCON_BLOCK.get());
+
+//                      ores-------------------------------------------------
 
                         pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
 
@@ -51,13 +57,28 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModBlocks.END_STONE_ZIRCON_ORE.get());
 
-                        pOutput.accept(ModItems.METAL_DETECTOR.get());
+//                     funny blocks--------------------------------------------------
 
                         pOutput.accept(ModBlocks.JAMES.get());
 
                         pOutput.accept(ModBlocks.AIDEN.get());
 
+//                      advanced blocks------------------------------------------
+
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get());
+
+//                      advanced items-----------------------------------------
+
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
+
+//                      foods----------------------------------------------------
+
+                        pOutput.accept(ModItems.STRAWBERRY.get());
+
+//                        weapond/tools-----------------------------------------
+
+
+//                        armer------------------------------------------------
 
                     })
                     .build());
