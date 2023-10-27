@@ -18,6 +18,7 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
                     .title(Component.translatable("creativetab.tutorial_tab"))
                     .displayItems((pParameters, pOutput) -> {
+
                         pOutput.accept(ModItems.SAPPHIRE.get());
 
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
@@ -50,7 +51,13 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModBlocks.END_STONE_ZIRCON_ORE.get());
 
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
 
+                        pOutput.accept(ModBlocks.JAMES.get());
+
+                        pOutput.accept(ModBlocks.AIDEN.get());
+
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
 
                     })
                     .build());

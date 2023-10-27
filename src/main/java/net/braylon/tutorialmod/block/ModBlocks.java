@@ -2,6 +2,7 @@ package net.braylon.tutorialmod.block;
 
 
 import net.braylon.tutorialmod.TutorialMod;
+import net.braylon.tutorialmod.block.custom.SoundBlock;
 import net.braylon.tutorialmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -34,8 +35,14 @@ public class ModBlocks {
 
         public static final RegistryObject<Block> RAW_ZIRCON_BLOCK = registerBlock("raw_zircon_block",
             () -> new Block((BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST))));
+    public static final RegistryObject<Block> JAMES = registerBlock("james",
+            () -> new Block((BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST))));
+    public static final RegistryObject<Block> AIDEN = registerBlock("aiden",
+            () -> new Block((BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST))));
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
-//ores oldest-newest---------------------------------------.
+//ores start oldest-newest---------------------------------------.
 
     public static final RegistryObject<Block> SAPPHIRE_ORE = registerBlock("sapphire_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
@@ -70,6 +77,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> END_STONE_ZIRCON_ORE = registerBlock("end_stone_zircon_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
                     .strength(4f).requiresCorrectToolForDrops(), UniformInt.of(4, 8)));
+
 
 
 
