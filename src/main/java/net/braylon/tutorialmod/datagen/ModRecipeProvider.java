@@ -2,8 +2,11 @@ package net.braylon.tutorialmod.datagen;
 import net.braylon.tutorialmod.TutorialMod;
 import net.braylon.tutorialmod.block.ModBlocks;
 import net.braylon.tutorialmod.item.ModItems;
+import net.minecraft.client.Minecraft;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
@@ -39,6 +42,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('S', ModItems.SAPPHIRE.get())
                 .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
                 .save(pWriter);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ZIRCON_BLOCK.get())
                 .pattern("SSS")
                 .pattern("SSS")
@@ -46,6 +50,55 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('S', ModItems.ZIRCON.get())
                 .unlockedBy(getHasName(ModItems.ZIRCON.get()), has(ModItems.ZIRCON.get()))
                 .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.JAMES.get())
+                .pattern("xxx")
+                .pattern("SSS")
+                .pattern("xxx")
+                .define('S', ModItems.ZIRCON.get())
+                .define('x', ModItems.SAPPHIRE.get())
+                .unlockedBy(getHasName(ModItems.ZIRCON.get()), has(ModItems.SAPPHIRE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.AIDEN.get())
+                .pattern("SSS")
+                .pattern("SSS")
+                .pattern("SSS")
+                .define('S', ModBlocks.JAMES.get())
+                .unlockedBy(getHasName(ModBlocks.JAMES.get()), has(ModBlocks.JAMES.get()))
+                .save(pWriter);
+
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.PINE_CONE.get())
+                .pattern("SSS")
+                .pattern("SSS")
+                .pattern("SSS")
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.STICK), has( Items.STICK ))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.METAL_DETECTOR.get())
+                .pattern("  S")
+                .pattern(" S ")
+                .pattern("xx ")
+                .define('S', Items.STICK)
+                .define('x', Items.IRON_INGOT)
+                .unlockedBy(getHasName(Items.STICK), has( Items.IRON_INGOT ))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SOUND_BLOCK.get())
+                .pattern(" x ")
+                .pattern("aSd")
+                .pattern("   ")
+                .define('S', Items.STICK)
+                .define('x', Items.HONEYCOMB)
+                .define('a', Items.WHITE_DYE)
+                .define('d', Items.BLACK_DYE)
+                .unlockedBy(getHasName(Items.STICK), has( Items.IRON_INGOT ))
+                .save(pWriter);
+
+
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 9)
                 .requires(ModBlocks.SAPPHIRE_BLOCK.get())

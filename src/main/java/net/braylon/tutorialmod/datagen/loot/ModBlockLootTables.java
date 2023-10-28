@@ -36,6 +36,33 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.RAW_ZIRCON_BLOCK.get());
         this.dropSelf(ModBlocks.JAMES.get());
         this.dropSelf(ModBlocks.AIDEN.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_STAIRS.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_BUTTON.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_TRAPDOOR.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_FENCE.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_WALL.get());
+
+        this.add(ModBlocks.SAPPHIRE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.SAPPHIRE_SLAB.get()));
+        this.add(ModBlocks.SAPPHIRE_DOOR.get(),
+                block -> createDoorTable(ModBlocks.SAPPHIRE_DOOR.get()));
+
+        this.dropSelf(ModBlocks.ZIRCON_STAIRS.get());
+        this.dropSelf(ModBlocks.ZIRCON_BUTTON.get());
+        this.dropSelf(ModBlocks.ZIRCON_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.ZIRCON_TRAPDOOR.get());
+        this.dropSelf(ModBlocks.ZIRCON_FENCE.get());
+        this.dropSelf(ModBlocks.ZIRCON_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.ZIRCON_WALL.get());
+
+        this.add(ModBlocks.ZIRCON_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.ZIRCON_SLAB.get()));
+        this.add(ModBlocks.ZIRCON_DOOR.get(),
+                block -> createDoorTable(ModBlocks.ZIRCON_DOOR.get()));
+
+
 
 
         this.add(ModBlocks.SAPPHIRE_ORE.get(),

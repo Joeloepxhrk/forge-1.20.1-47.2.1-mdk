@@ -22,7 +22,11 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
         this.tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES)
-                .add(ModBlocks.SAPPHIRE_ORE.get()).addTag(Tags.Blocks.ORES);
+                .add(ModBlocks.SAPPHIRE_ORE.get()).add(ModBlocks.ZIRCON_ORE.get())
+                .add(ModBlocks.NETHER_SAPPHIRE_ORE.get()).add(ModBlocks.NETHER_ZIRCON_ORE.get())
+                .add(ModBlocks.END_STONE_SAPPHIRE_ORE.get()).add(ModBlocks.END_STONE_ZIRCON_ORE.get())
+                .add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get()).add(ModBlocks.DEEPSLATE_ZIRCON_ORE.get())
+                .addTag(Tags.Blocks.ORES);
 
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
@@ -55,6 +59,21 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
                 .add(ModBlocks.END_STONE_ZIRCON_ORE.get());
+
+
+
+        this.tag(BlockTags.FENCES)
+                .add(ModBlocks.SAPPHIRE_FENCE.get())
+                .add(ModBlocks.ZIRCON_FENCE.get());
+
+        this.tag(BlockTags.FENCE_GATES)
+                .add(ModBlocks.SAPPHIRE_FENCE_GATE.get())
+                .add(ModBlocks.ZIRCON_FENCE_GATE.get());
+
+        this.tag(BlockTags.WALLS)
+                .add(ModBlocks.SAPPHIRE_WALL.get())
+                .add(ModBlocks.ZIRCON_WALL.get());
+
 
     }
 }

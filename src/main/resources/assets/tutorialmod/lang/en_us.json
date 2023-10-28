@@ -1,10 +1,8 @@
 {
   "item.tutorialmod.sapphire": "Sapphire",
-
   "item.tutorialmod.raw_sapphire": "Raw Sapphire",
 
   "item.tutorialmod.zircon": "Zircon",
-
   "item.tutorialmod.raw_zircon": "Raw Zircon",
 
 
@@ -12,48 +10,54 @@
 
 
   "block.tutorialmod.sapphire_block": "Block of Sapphire",
-
   "block.tutorialmod.raw_sapphire_block": "Block of Raw Sapphire",
 
   "block.tutorialmod.zircon_block": "Block of Zircon",
-
   "block.tutorialmod.raw_zircon_block": "Block of Raw Zircon",
 
 
 
 
   "block.tutorialmod.sapphire_ore": "Sapphire Ore",
-
   "block.tutorialmod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
-
   "block.tutorialmod.end_stone_sapphire_ore": "Endstone Sapphire Ore",
-
   "block.tutorialmod.nether_sapphire_ore": "Nether Sapphire Ore",
 
   "block.tutorialmod.zircon_ore": "Zircon Ore",
-
   "block.tutorialmod.deepslate_zircon_ore": "Deepslate Zircon Ore",
-
   "block.tutorialmod.end_stone_zircon_ore": "Endstone Zircon Ore",
-
   "block.tutorialmod.nether_zircon_ore": "Nether Zircon Ore",
 
   "item.tutorialmod.metal_detector": "Metal Detector",
 
   "block.tutorialmod.james": "JAMES",
-
   "block.tutorialmod.aiden": "Aiden",
-
   "block.tutorialmod.sound_block": "Sound Block",
 
   "item.tutorialmod.strawberry": "Straw Berry",
-
   "item.tutorialmod.pine_cone": "Pine Cone",
 
 
+  "block.tutorialmod.sapphire_stairs": "Sapphire Stairs",
+  "block.tutorialmod.sapphire_slab": "Sapphire Slab",
+  "block.tutorialmod.sapphire_button": "Sapphire Button",
+  "block.tutorialmod.sapphire_pressure_plate": "Sapphire Pressure Plate",
+  "block.tutorialmod.sapphire_fence": "Sapphire Fence",
+  "block.tutorialmod.sapphire_fence_gate": "Sapphire Fence Gate",
+  "block.tutorialmod.sapphire_wall": "Sapphire Wall",
+  "block.tutorialmod.sapphire_door": "Sapphire Door",
+  "block.tutorialmod.sapphire_trapdoor": "Sapphire Trapdoor",
 
 
-
+  "block.tutorialmod.zircon_stairs": "Zircon Stairs",
+  "block.tutorialmod.zircon_slab": "Zircon Slab",
+  "block.tutorialmod.zircon_button": "Zircon Button",
+  "block.tutorialmod.zircon_pressure_plate": "Zircon Pressure Plate",
+  "block.tutorialmod.zircon_fence": "Zircon Fence",
+  "block.tutorialmod.zircon_fence_gate": "Zircon Fence Gate",
+  "block.tutorialmod.zircon_wall": "Zircon Wall",
+  "block.tutorialmod.zircon_door": "Zircon Door",
+  "block.tutorialmod.zircon_trapdoor": "Zircon Trapdoor",
 
 
 

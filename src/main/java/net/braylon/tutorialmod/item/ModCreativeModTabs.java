@@ -67,6 +67,31 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get());
 
+//                        non block blocks----------------------------------------
+
+                        pOutput.accept(ModBlocks.ZIRCON_BUTTON.get());
+                        pOutput.accept(ModBlocks.ZIRCON_SLAB.get());
+                        pOutput.accept(ModBlocks.ZIRCON_STAIRS.get());
+                        pOutput.accept(ModBlocks.ZIRCON_DOOR.get());
+                        pOutput.accept(ModBlocks.ZIRCON_TRAPDOOR.get());
+                        pOutput.accept(ModBlocks.ZIRCON_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.ZIRCON_FENCE.get());
+                        pOutput.accept(ModBlocks.ZIRCON_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.ZIRCON_WALL.get());
+
+                        pOutput.accept(ModBlocks.SAPPHIRE_BUTTON.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_SLAB.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_STAIRS.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_DOOR.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_TRAPDOOR.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_FENCE.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_WALL.get());
+
+
+
+
 //                      advanced items-----------------------------------------
 
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
