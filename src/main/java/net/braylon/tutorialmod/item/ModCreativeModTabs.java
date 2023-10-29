@@ -57,17 +57,22 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModBlocks.END_STONE_ZIRCON_ORE.get());
 
-//                     funny blocks--------------------------------------------------
 
-                        pOutput.accept(ModBlocks.JAMES.get());
 
-                        pOutput.accept(ModBlocks.AIDEN.get());
 
-//                      advanced blocks------------------------------------------
 
-                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
+
 
 //                        non block blocks----------------------------------------
+                        pOutput.accept(ModBlocks.SAPPHIRE_BUTTON.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_SLAB.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_STAIRS.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_DOOR.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_TRAPDOOR.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_FENCE.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_WALL.get());
 
                         pOutput.accept(ModBlocks.ZIRCON_BUTTON.get());
                         pOutput.accept(ModBlocks.ZIRCON_SLAB.get());
@@ -79,20 +84,12 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.ZIRCON_FENCE_GATE.get());
                         pOutput.accept(ModBlocks.ZIRCON_WALL.get());
 
-                        pOutput.accept(ModBlocks.SAPPHIRE_BUTTON.get());
-                        pOutput.accept(ModBlocks.SAPPHIRE_SLAB.get());
-                        pOutput.accept(ModBlocks.SAPPHIRE_STAIRS.get());
-                        pOutput.accept(ModBlocks.SAPPHIRE_DOOR.get());
-                        pOutput.accept(ModBlocks.SAPPHIRE_TRAPDOOR.get());
-                        pOutput.accept(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get());
-                        pOutput.accept(ModBlocks.SAPPHIRE_FENCE.get());
-                        pOutput.accept(ModBlocks.SAPPHIRE_FENCE_GATE.get());
-                        pOutput.accept(ModBlocks.SAPPHIRE_WALL.get());
 
 
 
-
-//                      advanced items-----------------------------------------
+                        pOutput.accept(ModBlocks.JAMES.get());
+                        pOutput.accept(ModBlocks.AIDEN.get());
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
 
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
 
@@ -104,10 +101,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.PINE_CONE.get());
 
 
-//                        weapond/tools-----------------------------------------
 
 
-//                        armer------------------------------------------------
 
                     })
                     .build());

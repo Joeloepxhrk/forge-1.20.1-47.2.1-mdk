@@ -41,6 +41,19 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(ModBlocks.SAPPHIRE_FENCE_GATE);
 
         trapdoorItem(ModBlocks.SAPPHIRE_TRAPDOOR);
+
+        simpleBlockItem(ModBlocks.ZIRCON_DOOR);
+
+        fenceItem(ModBlocks.ZIRCON_FENCE, ModBlocks.ZIRCON_BLOCK);
+        buttonItem(ModBlocks.ZIRCON_BUTTON, ModBlocks.ZIRCON_BLOCK);
+        wallItem(ModBlocks.ZIRCON_WALL, ModBlocks.ZIRCON_BLOCK);
+
+        evenSimplerBlockItem(ModBlocks.ZIRCON_STAIRS);
+        evenSimplerBlockItem(ModBlocks.ZIRCON_SLAB);
+        evenSimplerBlockItem(ModBlocks.ZIRCON_PRESSURE_PLATE);
+        evenSimplerBlockItem(ModBlocks.ZIRCON_FENCE_GATE);
+
+        trapdoorItem(ModBlocks.ZIRCON_TRAPDOOR);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
