@@ -1,0 +1,13 @@
+{
+  "values": [
+    "tutorialmod:sapphire_ore",
+    "tutorialmod:zircon_ore",
+    "tutorialmod:nether_sapphire_ore",
+    "tutorialmod:nether_zircon_ore",
+    "tutorialmod:end_stone_sapphire_ore",
+    "tutorialmod:end_stone_zircon_ore",
+    "tutorialmod:deepslate_sapphire_ore",
+    "tutorialmod:deepslate_zircon_ore",
+    "#forge:ores"
+  ]
+}

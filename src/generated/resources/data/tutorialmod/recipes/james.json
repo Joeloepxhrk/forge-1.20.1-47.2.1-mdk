@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "tutorialmod:zircon"
+    },
+    "x": {
+      "item": "tutorialmod:sapphire"
+    }
+  },
+  "pattern": [
+    "xxx",
+    "SSS",
+    "xxx"
+  ],
+  "result": {
+    "item": "tutorialmod:james"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "zircon",
+  "ingredient": {
+    "item": "tutorialmod:end_stone_zircon_ore"
+  },
+  "result": "tutorialmod:zircon"
+}

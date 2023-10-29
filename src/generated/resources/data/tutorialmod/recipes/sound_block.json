@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "a": {
+      "item": "minecraft:white_dye"
+    },
+    "d": {
+      "item": "minecraft:black_dye"
+    },
+    "x": {
+      "item": "minecraft:honeycomb"
+    }
+  },
+  "pattern": [
+    " x ",
+    "aSd",
+    "   "
+  ],
+  "result": {
+    "item": "tutorialmod:sound_block"
+  },
+  "show_notification": true
+}
