@@ -30,7 +30,7 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> SAPPHIRE_STAFF = ITEMS.register("sapphire_staff",
-        () -> new Item(new Item.Properties().stacksTo(1)));
+            () -> new Item(new Item.Properties().stacksTo(1)));
 
 // foods------------------------------------------------------------------------------------------.
     public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",

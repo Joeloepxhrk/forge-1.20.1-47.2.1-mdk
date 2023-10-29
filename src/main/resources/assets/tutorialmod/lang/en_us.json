@@ -34,7 +34,7 @@
   "block.tutorialmod.aiden": "Aiden",
   "block.tutorialmod.sound_block": "Sound Block",
 
-  "item.tutorialmod.strawberry": "Straw Berry",
+  "item.tutorialmod.strawberry": "StrawBerry",
   "item.tutorialmod.pine_cone": "Pine Cone",
 
 
@@ -47,7 +47,8 @@
   "block.tutorialmod.sapphire_wall": "Sapphire Wall",
   "block.tutorialmod.sapphire_door": "Sapphire Door",
   "block.tutorialmod.sapphire_trapdoor": "Sapphire Trapdoor",
-  "block.tutorialmod.sapphire_staff": "Sapphire Staff",
+
+  "item.tutorialmod.sapphire_staff": "Sapphire Staff",
 
 
   "block.tutorialmod.zircon_stairs": "Zircon Stairs",
