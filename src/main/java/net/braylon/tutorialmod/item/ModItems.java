@@ -3,7 +3,7 @@ package net.braylon.tutorialmod.item;
 import net.braylon.tutorialmod.TutorialMod;
 import net.braylon.tutorialmod.item.custom.FuelItem;
 import net.braylon.tutorialmod.item.custom.MetalDetectorItem;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -29,8 +29,38 @@ public class ModItems {
 
 
 
+
+
+    public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
+        () -> new SwordItem(ModToolTiers.SAPPHIRE, 5, 2, new Item.Properties()));
+    public static final RegistryObject<Item> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.SAPPHIRE, 1, 1, new Item.Properties()));
+    public static final RegistryObject<Item> SAPPHIRE_AXE = ITEMS.register("sapphire_axe",
+            () -> new AxeItem(ModToolTiers.SAPPHIRE, 7, 1, new Item.Properties()));
+    public static final RegistryObject<Item> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel",
+            () -> new ShovelItem(ModToolTiers.SAPPHIRE, 0, 0, new Item.Properties()));
+    public static final RegistryObject<Item> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe",
+            () -> new HoeItem(ModToolTiers.SAPPHIRE, 0, 0, new Item.Properties()));
+
+    public static final RegistryObject<Item> ZIRCON_SWORD = ITEMS.register("zircon_sword",
+            () -> new SwordItem(ModToolTiers.ZIRCON, 3, 1, new Item.Properties()));
+    public static final RegistryObject<Item> ZIRCON_PICKAXE = ITEMS.register("zircon_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.ZIRCON, 1, 2, new Item.Properties()));
+    public static final RegistryObject<Item> ZIRCON_AXE = ITEMS.register("zircon_axe",
+            () -> new AxeItem(ModToolTiers.ZIRCON, 8, 0, new Item.Properties()));
+    public static final RegistryObject<Item> ZIRCON_SHOVEL = ITEMS.register("zircon_shovel",
+            () -> new ShovelItem(ModToolTiers.ZIRCON, 1, 1, new Item.Properties()));
+    public static final RegistryObject<Item> ZIRCON_HOE = ITEMS.register("zircon_hoe",
+            () -> new HoeItem(ModToolTiers.ZIRCON, 1, 1, new Item.Properties()));
+
     public static final RegistryObject<Item> SAPPHIRE_STAFF = ITEMS.register("sapphire_staff",
             () -> new Item(new Item.Properties().stacksTo(1)));
+
+
+
+
+
+
 
 // foods------------------------------------------------------------------------------------------.
     public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",

@@ -49,6 +49,17 @@
   "block.tutorialmod.sapphire_trapdoor": "Sapphire Trapdoor",
 
   "item.tutorialmod.sapphire_staff": "Sapphire Staff",
+  "item.tutorialmod.sapphire_sword": "Sapphire Sword",
+  "item.tutorialmod.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.tutorialmod.sapphire_axe": "Sapphire Axe",
+  "item.tutorialmod.sapphire_shovel": "Sapphire Shovel",
+  "item.tutorialmod.sapphire_hoe": "Sapphire Hoe",
+
+  "item.tutorialmod.zircon_sword": "Zircon Sword",
+  "item.tutorialmod.zircon_pickaxe": "Zircon Pickaxe",
+  "item.tutorialmod.zircon_axe": "Zircon Axe",
+  "item.tutorialmod.zircon_shovel": "Zircon Shovel",
+  "item.tutorialmod.zircon_hoe": "Zircon Hoe",
 
 
   "block.tutorialmod.zircon_stairs": "Zircon Stairs",

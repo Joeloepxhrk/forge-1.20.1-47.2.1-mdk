@@ -25,6 +25,27 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                         pOutput.accept(ModItems.SAPPHIRE_STAFF.get());
 
+
+
+
+
+
+
+
+
+                        pOutput.accept(ModItems.SAPPHIRE_SWORD.get());
+                        pOutput.accept(ModItems.SAPPHIRE_PICKAXE.get());
+                        pOutput.accept(ModItems.SAPPHIRE_AXE.get());
+                        pOutput.accept(ModItems.SAPPHIRE_SHOVEL.get());
+                        pOutput.accept(ModItems.SAPPHIRE_HOE.get());
+
+
+
+
+
+
+
+
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
@@ -59,6 +80,27 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.ZIRCON_FENCE.get());
                         pOutput.accept(ModBlocks.ZIRCON_FENCE_GATE.get());
                         pOutput.accept(ModBlocks.ZIRCON_WALL.get());
+
+
+
+
+
+
+
+
+                        pOutput.accept(ModItems.ZIRCON_SWORD.get());
+                        pOutput.accept(ModItems.ZIRCON_PICKAXE.get());
+                        pOutput.accept(ModItems.ZIRCON_AXE.get());
+                        pOutput.accept(ModItems.ZIRCON_SHOVEL.get());
+                        pOutput.accept(ModItems.ZIRCON_HOE.get());
+
+
+
+
+
+
+
+
 
 
                         pOutput.accept(ModBlocks.JAMES.get());

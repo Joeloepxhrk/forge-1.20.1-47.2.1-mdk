@@ -51,14 +51,30 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
 
-        this.tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.AIDEN.get());
-
         this.tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.NETHER_ZIRCON_ORE.get());
 
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
                 .add(ModBlocks.END_STONE_ZIRCON_ORE.get());
+
+
+
+
+
+
+
+        this.tag(ModTags.Blocks.NEEDS_SAPPHIRE_TOOL)
+                .add(ModBlocks.SOUND_BLOCK.get());
+                     ModBlocks.JAMES.get();
+
+        this.tag(ModTags.Blocks.NEEDS_ZIRCON_TOOL)
+                .add(ModBlocks.AIDEN.get());
+
+
+
+
+
+
 
 
 
