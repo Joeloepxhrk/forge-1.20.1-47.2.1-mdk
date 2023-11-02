@@ -57,12 +57,29 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1)));
 
 
+// armor--------------------------------------------------------------------------------------------------
+    public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
+            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> SAPPHIRE_LEGGINGS = ITEMS.register("sapphire_leggings",
+            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots",
+            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> ZIRCON_HELMET = ITEMS.register("zircon_helmet",
+            () -> new ArmorItem(ModArmorMaterials.ZIRCON, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> ZIRCON_CHESTPLATE = ITEMS.register("zircon_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.ZIRCON, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> ZIRCON_LEGGINGS = ITEMS.register("zircon_leggings",
+            () -> new ArmorItem(ModArmorMaterials.ZIRCON, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> ZIRCON_BOOTS = ITEMS.register("zircon_boots",
+            () -> new ArmorItem(ModArmorMaterials.ZIRCON, ArmorItem.Type.BOOTS, new Item.Properties()));
 
 
+//make shure to change type and name
 
-
-
-// foods------------------------------------------------------------------------------------------.
+    // foods------------------------------------------------------------------------------------------.
     public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
             () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
 
